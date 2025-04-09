@@ -28,13 +28,11 @@ or
 `bash tools/download.sh`
 
 * Both tools work. The bash version is a little faster but the php version is the fastest resume.
-
 * Expect weird things to happen. You're triggering a download of 1M+ files 100 at a time. It takes a bit.
     This tool can exhaust a cheap routers file handles, cause network glitches or generally reveal problems with your network setup.
-
 * Expect this to take an hour even with a fast connection.
-
 * The final product will be > 58GB
+* Produces a download (storage/data) compatible with all other hibp downloader's tools.
 
 ### Convert your text index to a binary one.
 
@@ -42,6 +40,7 @@ or
 
 * Reading and combining 1M+ files takes time. Right now its around 4o minutes.
 * Once you have your binary in place, you can try out the search or server options.
+* Produces a binary file that is compatible with [oschonrock/hibp](https://github.com/oschonrock/hibp)
 
 ### Search the database.
 
